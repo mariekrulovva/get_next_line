@@ -4,6 +4,21 @@
 This project will not only allow you to add a very convenient function to your collection,
 but it will also make you learn a highly interesting new concept in C programming: **static
 variables**.
+
+Table of contents
+=================
+
+<!--ts-->
+   * [Overview](#overview)
+   * [Table of contents](#table-of-contents)
+   * [General Requirements](#general-requirements)
+   * [Authorized functions and macros](#authorized-functions-and-macros)
+   * [Compilation](#compilation)
+   * [Format Specifiers](#format-specifiers)
+   * [Installation](#installation)
+   * [Examples](#examples)
+   * [Authors](#authors)
+<!--te-->
 ____
 ### Common Instructions
 * Your project must be written in C.
