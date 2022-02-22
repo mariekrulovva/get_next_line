@@ -22,7 +22,7 @@ Function name | get_next_line
 Prototype | char *get_next_line(int fd);
 Turn in files | get_next_line.c, get_next_line_utils.c, get_next_line.h
 Parameters | fd: The file descriptor to read from
-Return value | Read line: correct behavior. NULL: there is nothing else to read, or an error occurred
+Return value | Read line: correct behavior. NULL: there is nothing else to read, or an error occurred Read line: correct behaviorNULL:there is nothing else to read, or an erroroccurred
 `print_hex` | Prints hexadecimal in lowercase
 `print_HEX` | Prints hexadecimal in uppercase
 `print_unsigned` | Prints unsigned integer
