@@ -68,7 +68,7 @@ it is 1? 10000000? Do you know why?
 called. If you encounter a new line, you have to return the current
 line.
 
-``Don’t read the whole file and then process each line.``
+`````Don’t read the whole file and then process each line.`````
 
 **GNL with files**
 ```bash
