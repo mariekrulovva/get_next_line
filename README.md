@@ -62,7 +62,7 @@ Forbidden
 • You are not allowed to use your libft in this project.
 • lseek() is forbidden.
 • Global variables are forbidden.
-
+____
 **GNL Bonus Part**
 
 This project is straightforward and doesn’t allow complex bonuses. However, we trust
@@ -82,7 +82,7 @@ files:
 • get_next_line_bonus.c
 • get_next_line_bonus.h
 • get_next_line_utils_bonus.c
-
+____
 **GNL with files**
 ```bash
 gcc tests/main.c -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
