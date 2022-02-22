@@ -17,6 +17,18 @@ char *get_next_line(int fd);
 
 **GNL Mandatory Part**
 
+Function name | get_next_line
+--- | ---
+Prototype | char *get_next_line(int fd);
+Turn in files | get_next_line.c, get_next_line_utils.c,
+get_next_line.h
+`print_int` | Prints an integer
+`print_string` | Prints a string
+`print_hex` | Prints hexadecimal in lowercase
+`print_HEX` | Prints hexadecimal in uppercase
+`print_unsigned` | Prints unsigned integer
+`print_address` | Prints a pointer
+
 Repeated calls (e.g., using a loop) to your get_next_line() function should let
 you read the text file pointed to by the file descriptor, one line at a time.
 
