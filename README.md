@@ -18,7 +18,7 @@ char *get_next_line(int fd);
 **GNL Mandatory Part**
 
 Function name | get_next_line
-
+--- | ---
 Prototype | char *get_next_line(int fd);
 Turn in files | get_next_line.c, get_next_line_utils.c, 
  | get_next_line.h
