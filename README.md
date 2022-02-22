@@ -20,7 +20,8 @@ char *get_next_line(int fd);
 Function name | get_next_line
 --- | ---
 Prototype | char *get_next_line(int fd);
-Turn in files | get_next_line.c, get_next_line_utils.c, get_next_line.h
+Turn in files | get_next_line.c, get_next_line_utils.c, 
+--- | get_next_line.h
 `print_int` | Prints an integer
 `print_string` | Prints a string
 `print_hex` | Prints hexadecimal in lowercase
