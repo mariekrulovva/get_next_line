@@ -100,33 +100,11 @@ ____
 
 ### Return value
  | Value | Description         |
- |-----------|----------------------|
+ |-----------|----------------|
  |  1| A line has been read |
  |  0| EOF has been reached |
  |  -1| An error happened |
-
-### READ() function
-
-```c
-#include <unistd.h>
-ssize_t read(int fd, void *buf, size_t count);
-```
-**Input parameters:**
-- **int fd** file descriptor is an integer and not a file pointer. The file descriptor for stdin is 0
-- **void buf** pointer to buffer to store characters read by the read function
-- **size_t count** maximum number of characters to read
-
-**:traffic_light: Note.:** a character is equivalent to a 1 byte and a byte is made up of 8 bits therefore a character is made up of 8 bits (1 byte)
-
-We can do something like this to read 20 bytes or 20 characters:
-```c
-char buffer[20];
-read(fd, buffer, 20);
-```
-
-**:traffic_light: Note.:** remember read() doesn't add '\0' to terminate to make it string (just gives raw buffer).
-
-
+____
 ### Functions Used
 
 **External Functions**
