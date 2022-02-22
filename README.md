@@ -68,8 +68,8 @@ called. If you encounter a new line, you have to return the current
 line. Don’t read the whole file and then process each line.
 
 Forbidden    
-• You are not allowed to use your libft in this project.
-• lseek() is forbidden.
+• You are not allowed to use your libft in this project.    
+• lseek() is forbidden.    
 • Global variables are forbidden.
 ____
 ### GNL Bonus Part
