@@ -9,7 +9,7 @@ This project will not only allow you to add a very convenient function to your c
 but it will also allow you to learn a highly interesting new concept in C programming:
 **"static variables"**
 ____
-### Function Prototype
+# Function Prototype
 ```
 char *get_next_line(int fd);
 ```
