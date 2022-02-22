@@ -105,19 +105,17 @@ ____
  |-----------|-------------------------|
  |  read() | reads data previously written to a file |
  |  malloc() | used to allocate a block of memory on the heap |
- |  free() | to release or deallocate the memory blocks which are previously    allocated by calloc(), malloc() or realloc() functions |
+ |  free() | to release or deallocate the memory blocks which are previously allocated by calloc(), malloc() or realloc() functions |
 
 **Utility Functions**
 
  | Function | Description         |
  |-----------|----------------------|
- |  ft_strnew() | Uses size as the size for a new string product of memalloc, this will return the new string, after assigning '' 0 "as elements of the string. |
- |  ft_strchr() | The  strchr() function returns a pointer to the first occurrence of the character c in the string s. |
+ |  ft_substr() | Allocates with malloc and returns a substring from the string 's'. |
  |  ft_strjoin() | Allocates with malloc and returns a new string, which is the result of the concatenation of 's1' and 's2'. |
- |  ft_memdel() | A line has been read |
- |  ft_strdup() | Returns a pointer to a  new  string  which  is  a duplicate  of the string s. |
- |  ft_substr | Allocates with malloc and returns a substring from the string 's'. |
- |  ft_strlen |  Calculates the length of the string s, excluding the terminating null byte ('\0') |
+ |  ft_strchr() | Locates the first occurrence of c (converted to a char) in the string pointed to by s. |
+ |  ft_strdup() | Returns a pointer to a  new  string  which  is  a duplicate  of the string 's'. |
+ |  ft_strlen |  Calculates the length of the string 's', excluding the terminating null byte ('\0'). |
 
 
 ## Testers
