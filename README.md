@@ -44,6 +44,8 @@ get_next_line() function.
 
 • Add all the helper functions you need in the get_next_line_utils.c file.
 
+ℹ️ A good start would be to know what a static variable is.
+
 • Because you will have to read files in get_next_line(), add this option to your compiler call: -D BUFFER_SIZE=n
 It will define the buffer size for read().
 The buffer size value will be modified by your peer-evaluators and the Moulinette
@@ -60,8 +62,13 @@ end of file.
 a binary file. However, you can implement a logical way to handle this behavior if
 you want to.
 
-💡 😹 Does your function still work if the BUFFER_SIZE value is 9999? If
-it is 1? 10000000? Do you know why?	
+💡 Does your function still work if the BUFFER_SIZE value is 9999? If
+it is 1? 10000000? Do you know why?
+ℹ️ Try to read as little as possible each time get_next_line() is
+called. If you encounter a new line, you have to return the current
+line.
+
+``Don’t read the whole file and then process each line.``
 
 **GNL with files**
 ```bash
