@@ -60,7 +60,7 @@ end of file.
 a binary file. However, you can implement a logical way to handle this behavior if
 you want to.
 
-:bulb: Does your function still work if the BUFFER_SIZE value is 9999? If
+:bulb1: Does your function still work if the BUFFER_SIZE value is 9999? If
 it is 1? 10000000? Do you know why?	
 
 **GNL with files**
