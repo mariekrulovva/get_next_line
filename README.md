@@ -8,12 +8,12 @@ ending with a newline, read from a file descriptor.**
 This project will not only allow you to add a very convenient function to your collection,
 but it will also allow you to learn a highly interesting new concept in C programming:
 **"static variables"**
-
+____
 ### Function Prototype
 ```
 char *get_next_line(int fd);
 ```
-
+____
 **GNL Mandatory Part**
 
 Function name | get_next_line
