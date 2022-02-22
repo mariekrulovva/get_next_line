@@ -9,12 +9,12 @@ This project will not only allow you to add a very convenient function to your c
 but it will also allow you to learn a highly interesting new concept in C programming:
 **"static variables"**
 ____
-# Function Prototype
+### Function Prototype
 ```
 char *get_next_line(int fd);
 ```
 ____
-**GNL Mandatory Part**
+### GNL Mandatory Part
 
 Function name | get_next_line
 --- | ---
@@ -63,7 +63,7 @@ Forbidden
 • lseek() is forbidden.
 • Global variables are forbidden.
 ____
-**GNL Bonus Part**
+### GNL Bonus Part
 
 This project is straightforward and doesn’t allow complex bonuses. However, we trust
 your creativity. If you completed the mandatory part, give a try to this bonus part.
