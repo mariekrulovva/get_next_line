@@ -10,7 +10,7 @@ but it will also allow you to learn a highly interesting new concept in C progra
 **"static variables"**
 
 ### Function Prototype
-```c
+```
 char *get_next_line(int fd);
 ```
 ## Compilation
