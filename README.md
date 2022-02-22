@@ -6,18 +6,13 @@ but it will also make you learn a highly interesting new concept in C programmin
 variables**.
 
 ### Table of contents
-=================
 
 <!--ts-->
-   * [Overview](#overview)
-   * [Table of contents](#table-of-contents)
-   * [General Requirements](#general-requirements)
-   * [Authorized functions and macros](#authorized-functions-and-macros)
-   * [Compilation](#compilation)
-   * [Format Specifiers](#format-specifiers)
-   * [Installation](#installation)
-   * [Examples](#examples)
-   * [Authors](#authors)
+   * [Common Instructions](#common-instructions)
+   * [Function Prototype](#function-prototype)
+   * [Mandatory Part](#mandatory-part)
+   * [Bonus Part](#bonus-part)
+   * [Functions Used](#functions-used)
 <!--te-->
 ____
 ### Common Instructions
@@ -46,7 +41,7 @@ ____
 char *get_next_line(int fd);
 ```
 ____
-### GNL Mandatory Part
+### Mandatory Part
 
 Function name | get_next_line
 --- | ---
@@ -91,7 +86,7 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
 • lseek() is forbidden.    
 • Global variables are forbidden.
 ____
-### GNL Bonus Part
+### Bonus Part
 
 This project is straightforward and doesn’t allow complex bonuses. However, we trust your creativity. If you completed the mandatory part, give a try to this bonus part.
 
