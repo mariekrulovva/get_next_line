@@ -97,23 +97,15 @@ files:
 ❗The bonus part will only be assessed if the mandatory part is PERFECT. Perfect means the mandatory part has been integrally done
 and works without malfunctioning. If you have not passed ALL the mandatory requirements, your bonus part will not be evaluated at all.
 ____
-
-### Return value
- | Value | Description         |
- |-----------|----------------|
- |  1| A line has been read |
- |  0| EOF has been reached |
- |  -1| An error happened |
-____
 ### Functions Used
 
 **External Functions**
 
   | Function | Description         |
- |-----------|----------------------|
- |  read() | A line has been read |
- |  malloc() | EOF has been reached |
- |  free() | An error happened |
+ |-----------|-------------------------|
+ |  read() | reads data previously written to a file |
+ |  malloc() | used to allocate a block of memory on the heap |
+ |  free() | to release or deallocate the memory blocks which are previously allocated by calloc(), malloc() or realloc() functions |
 
 **Utility Functions**
 
