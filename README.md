@@ -53,7 +53,7 @@ a binary file. However, you can implement a logical way to handle this behavior 
 you want to.
 
 💡 Does your function still work if the BUFFER_SIZE value is 9999? If
-it is 1? 10000000? Do you know why?
+it is 1? 10000000? Do you know why?    
 ℹ️ Try to read as little as possible each time get_next_line() is
 called. If you encounter a new line, you have to return the current
 line. Don’t read the whole file and then process each line.
