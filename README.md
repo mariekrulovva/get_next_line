@@ -105,7 +105,7 @@ ____
  |-----------|-------------------------|
  |  read() | reads data previously written to a file |
  |  malloc() | used to allocate a block of memory on the heap |
- |  free() | to release or deallocate the memory blocks which are previously allocated by calloc(), malloc() or realloc() functions |
+ |  free() | to release or deallocate the memory blocks which are previously    allocated by calloc(), malloc() or realloc() functions |
 
 **Utility Functions**
 
