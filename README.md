@@ -44,6 +44,25 @@ get_next_line() function.
 
 • Add all the helper functions you need in the get_next_line_utils.c file.
 
+• Because you will have to read files in get_next_line(), add this option to your compiler call: -D BUFFER_SIZE=n
+It will define the buffer size for read().
+The buffer size value will be modified by your peer-evaluators and the Moulinette
+in order to test your code.
+
+• You will compile your code as follows (a buffer size of 42 is used as an example):
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+
+• We consider that get_next_line() has an undefined behavior if the file pointed to
+by the file descriptor changed since the last call whereas read() didn’t reach the
+end of file.
+
+• We also consider that get_next_line() has an undefined behavior when reading
+a binary file. However, you can implement a logical way to handle this behavior if
+you want to.
+
+:bulb: Does your function still work if the BUFFER_SIZE value is 9999? If
+it is 1? 10000000? Do you know why?	
+
 **GNL with files**
 ```bash
 gcc tests/main.c -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
