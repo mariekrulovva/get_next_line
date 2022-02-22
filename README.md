@@ -22,7 +22,7 @@ ____
 
 * If your project allows you to use your libft, you must copy its sources and its associated Makefile in a libft folder with its associated Makefile. Your project’s Makefile must compile the library by using its Makefile, then compile the project.
 
-* We encourage you to create test programs for your project even though this work won’t have to be submitted and won’t be graded. It will give you a chance to easily test your work and your peers’ work. You will find those tests especially useful during your defence. Indeed, during defence, you are free to use your tests and/or the tests of the peer you are evaluating.
+* We encourage you to create test programs for your project even though this work **won’t have to be submitted and won’t be graded**. It will give you a chance to easily test your work and your peers’ work. You will find those tests especially useful during your defence. Indeed, during defence, you are free to use your tests and/or the tests of the peer you are evaluating.
 
 * Submit your work to your assigned git repository. Only the work in the git repository will be graded. If Deepthought is assigned to grade your work, it will be done after your peer-evaluations. If an error happens in any section of your work during Deepthought’s grading, the evaluation will stop.
 ____
@@ -50,13 +50,13 @@ Description  | Write a function that returns a line read from a file descriptor
 
 * Make sure that your function works as expected both when reading a file and when reading from the standard input.
 
-* Please note that the returned line should include the terminating \n character, except if the end of file was reached and does not end with a \n character.
+* **Please note** that the returned line should include the terminating \n character, except if the end of file was reached and does not end with a \n character.
 
 * Your header file get_next_line.h must at least contain the prototype of the get_next_line() function.
 
 * Add all the helper functions you need in the get_next_line_utils.c file.
 
-ℹ️ A good start would be to know what a static variable is.
+ℹ️ A good start would be to know what a _static variable_ is.
 
 * Because you will have to read files in get_next_line(), add this option to your compiler call: -D BUFFER_SIZE=n
 It will define the buffer size for read().
