@@ -126,4 +126,4 @@ ____
  |  ft_strjoin() | Allocates with malloc and returns a new string, which is the result of the concatenation of 's1' and 's2'. |
  |  ft_strchr() | Locates the first occurrence of c (converted to a char) in the string pointed to by s. |
  |  ft_strdup() | Returns a pointer to a  new  string  which  is  a duplicate  of the string 's'. |
- |  ft_strlen |  Calculates the length of the string 's', excluding the terminating null byte ('\0'). |
+ |  ft_strlen() |  Calculates the length of the string 's', excluding the terminating null byte ('\0'). |
