@@ -56,7 +56,7 @@ Description  | Write a function that returns a line read from a file descriptor
 
 * Add all the helper functions you need in the get_next_line_utils.c file.
 
-ℹ️ A good start would be to know what a _static variable_ is.
+ℹ️ A good start would be to know what a *static variable* is.
 
 * Because you will have to read files in get_next_line(), add this option to your compiler call: -D BUFFER_SIZE=n
 It will define the buffer size for read().
